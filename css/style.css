@@ -1,0 +1,576 @@
+/*TYPO*/
+body {
+  position: relative;
+  min-height: 100%;
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.2em;
+}
+
+@media only screen and (max-width: 767px) {
+  p {
+    font-size: 1em;
+  }
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 3em;
+}
+
+@media only screen and (max-width: 767px) {
+  h1 {
+    font-size: 2em;
+  }
+}
+
+h2 {
+  font-family: 'Poly', serif;
+  font-size: 2em;
+}
+
+@media only screen and (max-width: 767px) {
+  h2 {
+    font-size: 1.5em;
+  }
+}
+
+/*NAVBAR*/
+nav .navbar .navbar-expand-lg .navbar-light .bg-light {
+  background-color: #99BF6A;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #ffffff;
+  padding: 3%;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #56B399;
+}
+
+.navbar-brand {
+  display: inline-block;
+  margin-bottom: 0;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
+}
+
+/*ACTIVE*/
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: #99BF6A;
+  background-color: white;
+  border-radius: 8px;
+  padding: 3%;
+}
+
+.bg-light {
+  background-color: #99BF6A !important;
+}
+
+nav img {
+  width: 5%;
+}
+
+@media only screen and (max-width: 767px) {
+  nav img {
+    width: 10%;
+    height: 10%;
+  }
+}
+
+nav {
+  margin-bottom: 5%;
+}
+
+/*
+HOMEPAGE*/
+.homepage {
+  background-color: #99BF6A;
+  margin-top: 15%;
+}
+
+.homepage .titelrij {
+  display: block;
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.homepage h1 {
+  color: white;
+  font-size: 5em;
+}
+
+.homepage h2 {
+  color: white;
+}
+
+.homepage img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 10%;
+  /* Extra small devices (phones, 600px and down) */
+}
+
+@media only screen and (max-width: 767px) {
+  .homepage img {
+    width: 30%;
+    margin: auto;
+  }
+}
+
+.homepage .bttn {
+  text-decoration: none;
+  background-color: none;
+  border-radius: 5%;
+  border: 2px solid white;
+  width: 80%;
+  display: block;
+  text-align: center;
+  color: white;
+  padding: 3%;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: auto;
+  margin-top: 2em;
+}
+
+@media only screen and (max-width: 600px) {
+  .homepage .bttn {
+    width: 30%;
+  }
+}
+
+.homepage .bttn a:hover {
+  background-color: #56B399;
+  color: white;
+}
+
+/*WAT-PAGINA*/
+.pagina2 {
+  color: #656565;
+}
+
+@media only screen and (max-width: 767px) {
+  .pagina2 {
+    width: 80%;
+    margin-top: 10%;
+  }
+}
+
+.pagina2 .watrow {
+  margin-bottom: 15%;
+}
+
+.pagina2 .vraag {
+  display: block;
+  width: 60%;
+}
+
+@media only screen and (max-width: 767px) {
+  .pagina2 .vraag {
+    width: 30%;
+    margin: auto;
+  }
+}
+
+.pagina2 .pijltjegroen {
+  margin-top: 4em;
+}
+
+.pagina2 .pijlgroen {
+  display: block;
+  width: 10%;
+  height: 10%;
+  margin: auto;
+}
+
+@media only screen and (max-width: 767px) {
+  .pagina2 .pijlgroen {
+    width: 20%;
+    height: 20%;
+  }
+}
+
+.pagina2 .cactuswat {
+  display: block;
+  width: 70%;
+  margin: auto;
+}
+
+@media only screen and (max-width: 767px) {
+  .pagina2 .cactuswat {
+    width: 20%;
+    float: left;
+  }
+}
+
+.pagina2 .hebik,
+.pagina2 .pijltjegroen,
+.pagina2 .buttonwat {
+  background-color: #F7F199;
+  padding: 4%;
+}
+
+.pagina2 .geel {
+  background-color: #F7F199;
+}
+
+.pagina2 .bttn {
+  text-decoration: none;
+  color: white;
+  display: block;
+  line-height: 64px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 800;
+  background-color: #99BF6A;
+  margin-top: 1em;
+  border-radius: 8px;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  margin-bottom: 10%;
+}
+
+.pagina2 .bttn:hover {
+  background-color: #56B399;
+  cursor: pointer;
+}
+
+.pagina2 .top {
+  background-color: white;
+  height: 300px;
+}
+
+.pagina2 .bottom {
+  background-color: #F7F199;
+  min-height: 100px;
+  overflow: hidden;
+  height: 100%;
+}
+
+.pagina2 html,
+.pagina2 body {
+  height: 100%;
+}
+
+/*HELP-PAGINA*/
+@media only screen and (max-width: 767px) {
+  .pagina3 {
+    width: 80%;
+    margin-top: 10%;
+  }
+}
+
+.pagina3 .h1blauw {
+  color: #56B399;
+}
+
+.pagina3 .band {
+  display: block;
+  width: 70%;
+  height: auto;
+}
+
+@media only screen and (max-width: 767px) {
+  .pagina3 .band {
+    width: 30%;
+    float: right;
+  }
+}
+
+.pagina3 .pijltjeblauw {
+  margin-top: 4em;
+}
+
+.pagina3 .pijlblauw {
+  display: block;
+  width: 10%;
+  height: 10%;
+  margin: auto;
+}
+
+.pagina3 .girl {
+  display: block;
+  width: 70%;
+  margin: auto;
+}
+
+.pagina3 .girlrij,
+.pagina3 .pijltjeblauw {
+  background-color: #AFDBCE;
+  color: white;
+  padding: 4%;
+}
+
+/*CONTACT-PAGINA*/
+.pagina4 {
+  /* WebKit, Blink, Edge */
+  /* Mozilla Firefox 4 to 18 */
+  /* Mozilla Firefox 19+ */
+  /* Internet Explorer 10-11 */
+  /* Microsoft Edge */
+}
+
+@media only screen and (max-width: 767px) {
+  .pagina4 {
+    width: 80%;
+    margin-top: 10%;
+  }
+}
+
+.pagina4 h1 {
+  color: #56B399;
+}
+
+.pagina4 p {
+  margin-bottom: 0%;
+}
+
+.pagina4 img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.pagina4 .overons {
+  margin-bottom: 10%;
+}
+
+.pagina4 .bttn {
+  text-decoration: none;
+  color: white;
+  display: block;
+  line-height: 64px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  width: 60%;
+  background-color: #99BF6A;
+  margin-top: 2em;
+  border-radius: 8px;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  margin-bottom: 10%;
+}
+
+.pagina4 .bttn:hover {
+  background-color: #56B399;
+  cursor: pointer;
+}
+
+.pagina4 .form-control {
+  margin: 2%;
+  margin-bottom: 3%;
+  /*background-color: #d4d4d4;*/
+}
+
+.pagina4 .form-control::-webkit-input-placeholder {
+  color: #56B399;
+  font-family: 'Poly', serif;
+  font-weight: 400;
+}
+
+.pagina4 .form-control:-moz-placeholder {
+  color: #56B399;
+  font-family: 'Poly', serif;
+  font-weight: 400;
+}
+
+.pagina4 .form-control::-moz-placeholder {
+  color: #56B399;
+  font-family: 'Poly', serif;
+  font-weight: 400;
+}
+
+.pagina4 .form-control:-ms-input-placeholder {
+  color: #56B399;
+  font-family: 'Poly', serif;
+  font-weight: 400;
+}
+
+.pagina4 .form-control::-ms-input-placeholder {
+  color: #56B399;
+  font-family: 'Poly', serif;
+  font-weight: 400;
+}
+
+.pagina4 .strong {
+  font-weight: 600;
+  color: #99BF6A;
+}
+
+/*STEUN-PAGINA*/
+.pagina5 .h1blauw {
+  color: #56B399;
+  display: block;
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.pagina5 .plant {
+  display: block;
+  width: 10%;
+  height: auto;
+  margin-top: 5%;
+}
+
+.pagina5 .progress {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  background-color: #b3b1b1;
+  border-radius: 8px;
+}
+
+@media only screen and (max-width: 767px) {
+  .pagina5 .progress {
+    width: 60%;
+    margin-left: 7em;
+  }
+}
+
+.pagina5 .progress .progress-bar {
+  background-color: #56B399;
+  border-radius: 8px;
+  margin-left: -10%;
+  padding-left: 70%;
+}
+
+.pagina5 .card {
+  background-color: #B7DFD5;
+  color: white;
+  border: none;
+  /* margin: 5%;*/
+  padding: 3%;
+  border-radius: 8px;
+  margin-top: 5%;
+}
+
+@media only screen and (max-width: 767px) {
+  .pagina5 .card {
+    width: 60%;
+    margin: auto;
+    margin-top: 10%;
+  }
+}
+
+.pagina5 .card h1 {
+  font-size: 2em;
+}
+
+.pagina5 .card h2 {
+  font-size: 1em;
+}
+
+.pagina5 .card .strong {
+  font-weight: 600;
+  color: #56B399;
+  margin-top: 2%;
+}
+
+.pagina5 .card .inside {
+  font-size: 1em;
+}
+
+.pagina5 .geld {
+  border: 2px solid white;
+  text-align: center;
+  padding: 3%;
+  margin: auto;
+  margin-top: 2em;
+}
+
+.pagina5 .geld a {
+  text-decoration: none;
+  color: white;
+}
+
+.pagina5 .geld a:hover {
+  color: #99BF6A;
+  font-weight: 600;
+}
+
+.pagina5 p {
+  margin: 0%;
+}
+
+.pagina5 .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+  background-color: #99BF6A;
+  border-radius: 8px;
+}
+
+.pagina5 .container:hover .overlay {
+  opacity: 1;
+}
+
+.pagina5 .text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container {
+  padding-right: 0;
+}
+
+/*.footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding:0%;
+    background-color: #99BF6A;
+    text-align: center;
+    display: inline-block;
+} */
+.footer {
+  background-color: #99BF6A;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  margin-top: 3%;
+  margin-left: -10%;
+  position: absolute;
+  bottom: 0px;
+  width: 120%;
+}
+
+.footer p {
+  color: white;
+}
+
+.sticky {
+  margin-left: -10%;
+  position: absolute;
+  bottom: 0px;
+  width: 120%;
+}
+/*# sourceMappingURL=style.css.map */
