@@ -214,6 +214,13 @@ HOMEPAGE*/
             color: $color3;
         }
 
+        .big{
+            font-size: 2em;
+            @media only screen and (max-width: 767px) {
+                font-size: 1em;
+            } 
+        }
+
         .vraag {
             display: block;
             width: 70%;
@@ -230,7 +237,7 @@ HOMEPAGE*/
         padding: 3%;
 
         h1 {
-            color: $color2;
+            color: $color1;
         }
 
         .bttn {
@@ -269,10 +276,12 @@ HOMEPAGE*/
 
             h2 {
                 font-size: 1em;
+                color: $color1;
 
                 @media only screen and (max-width: 767px) {
                     display: block;
                     text-align: center;
+                    
 
                 }
             }
@@ -326,10 +335,19 @@ HOMEPAGE*/
         color: $color3;
     }
 
+    .big{
+        font-size: 2em;
+        @media only screen and (max-width: 767px) {
+            font-size: 1em;
+        } 
+    }
+
     .band {
         display: block;
         width: 80%;
         height: auto;
+        margin-bottom: 15%;
+
 
         @media only screen and (max-width: 767px) {
             width: 30%;

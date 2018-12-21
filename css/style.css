@@ -183,6 +183,16 @@ HOMEPAGE*/
   color: #56B399;
 }
 
+.pagina2 .watrow .big {
+  font-size: 2em;
+}
+
+@media only screen and (max-width: 767px) {
+  .pagina2 .watrow .big {
+    font-size: 1em;
+  }
+}
+
 .pagina2 .watrow .vraag {
   display: block;
   width: 70%;
@@ -201,7 +211,7 @@ HOMEPAGE*/
 }
 
 .pagina2 .geel h1 {
-  color: #656565;
+  color: #99BF6A;
 }
 
 .pagina2 .geel .bttn {
@@ -235,6 +245,7 @@ HOMEPAGE*/
 
 .pagina2 .geel .pijltjegroen h2 {
   font-size: 1em;
+  color: #99BF6A;
 }
 
 @media only screen and (max-width: 767px) {
@@ -286,10 +297,21 @@ HOMEPAGE*/
   color: #56B399;
 }
 
+.pagina3 .big {
+  font-size: 2em;
+}
+
+@media only screen and (max-width: 767px) {
+  .pagina3 .big {
+    font-size: 1em;
+  }
+}
+
 .pagina3 .band {
   display: block;
   width: 80%;
   height: auto;
+  margin-bottom: 15%;
 }
 
 @media only screen and (max-width: 767px) {
